@@ -1,11 +1,11 @@
 [
 	// FOR LINUX ONLY
 	{
-		"keys": ["ctrl+`"],
+		"keys": ["ctrl+`"],		// for close terminus
 		"command": "toggle_terminus_panel"
 	},
 	{
-		"keys": ["ctrl+1"],
+		"keys": ["ctrl+1"],		// for open terminus
 		"command": "terminus_open",
 		"args" : {
          	"cmd": ["bash","-i", "-l"],
