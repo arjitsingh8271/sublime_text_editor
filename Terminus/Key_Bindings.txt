@@ -1,0 +1,17 @@
+[
+	// FOR LINUX ONLY
+	{
+		"keys": ["ctrl+`"],
+		"command": "toggle_terminus_panel"
+	},
+	{
+		"keys": ["ctrl+1"],
+		"command": "terminus_open",
+		"args" : {
+         	"cmd": ["bash","-i", "-l"],
+            "cwd": "${file_path:${folder}}",
+            "title": "Command Prompt",
+            "panel_name": "Terminus"
+        }
+	}
+]
